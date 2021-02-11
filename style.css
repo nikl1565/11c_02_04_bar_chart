@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.o-container {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.c-chart {
+    margin: 0 auto;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(40, 1fr);
+    padding: 0;
+    align-items: end;
+    height: 12rem;
+}
+
+.c-chart__bar {
+    width: 1rem;
+    background-color: #9c5e5e;
+    border: 1px solid #462a2a;
+    border-bottom: 0;
+}
